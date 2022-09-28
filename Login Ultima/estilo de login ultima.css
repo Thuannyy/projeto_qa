@@ -1,0 +1,88 @@
+.container_divisao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 28px;
+}
+
+span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.login_senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_senha > input{
+    width: 340px;
+    height: 56px;
+    background-color: #f4f4f4;
+    border: 0;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    top: 367px;
+    left: 160px;
+}
+.container_ck > label > a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 160px;
+    top: 521px;
+    border: 1px solid #000000;
+    padding: 100px;
+}
+
+.minha_senha{
+    color: black;
+    text-decoration: none;
+}
+
+
+button {
+    width: 360px;
+    height: 56px;
+    left: 160px;
+    top: 580px;
+    background-color: #2a88c8;
+    border: 0;
+    color: #ffffff;
+    margin-bottom: 24px;
+    border-radius: 15px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: 1s;
+}
+
+.criar_conta{
+    color: black;
+    text-decoration: none;
+}
+.container_imagem{
+    width: 50%;
+
+
+}

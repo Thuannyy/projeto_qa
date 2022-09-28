@@ -1,0 +1,27 @@
+#cabecalho {
+    width: 200vh;
+    height: 20vh;
+    background-color: rgb(207, 206, 206);
+    padding: 2fr;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ul {
+    list-style: none;
+    padding: auto;
+    margin-top: auto;
+    
+
+}
+li {
+    display: inline-block;
+    width: 20vh;
+    height: 100vh;
+    padding-left: 60px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
